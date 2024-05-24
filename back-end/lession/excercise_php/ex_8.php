@@ -55,15 +55,14 @@ $myList = array(
 
 //tao funtion lay id cua mot bai bao trong mang
 
- function get_id_newpapers($list)
+ function get_id_newpapers($id)
  {
-    $mylisst_curen = func_get_arg(0);
-     $list_get_id = array();
-
-    foreach($mylisst_curen as $item){
-    $list_get_id[] = $item['id'];
+    global $myList ;
+    if(array_key_exists($id,$myList)){
+        return $myList[$id];
     }
-    return $list_get_id;
+    return false;
+    
  }
  //hàm hiển thị mảng
  function showArray($ar){
@@ -72,7 +71,8 @@ $myList = array(
     echo " <pre>";
  }
 
- $list_get_id = get_id_newpapers($myList);
- showArray($list_get_id);
+ $item = get_id_newpapers(0);
+showArray($item);
+
  
 ?>
