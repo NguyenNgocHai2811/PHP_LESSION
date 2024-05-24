@@ -32,5 +32,6 @@ echo "vui lòng không để trống";
         Password <input type="password" name ="password"> <br>
         <input type="submit" name="login" id="" value="gửi">
     </form>
+    
 </body>
 </html>
