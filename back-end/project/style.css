@@ -1,0 +1,33 @@
+/* code for menu nav */
+.nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 130%;
+    justify-content: space-between;
+   
+}
+.nav{
+    background-color: silver;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.news .new .content{
+    display: flex;
+}
+/* section one */
+.section-one{
+    display: flex;
+}
+
+.section-one .main-content .images-new {
+    width: 452px;
+    height: 536px;
+    margin-right: 30px;
+}
+.section-one .main-content .content{
+    display: flex;
+}
+

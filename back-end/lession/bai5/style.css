@@ -1,0 +1,52 @@
+.hinh-anh img{
+    width: 200px;
+    height: 150px;
+}
+.content{
+    background-color: #FEEACA;
+    width: 815px;
+}
+.content-money{
+    display: flex;
+    justify-content: space-between;
+    width: 815px;
+    
+    
+}
+
+
+h1{
+    text-align: center;
+    width: 815px;
+    background-color: #FDCB68;
+    color: #904808;
+    
+}
+
+.label{
+    background-color: #A88745;
+    font-size: 140%;
+    font-family: sans-serif;
+   color:#FDCB68;
+}
+.submit{
+    text-align: center;
+    font-size: 30px;
+}
+.quydoi{
+    font-size: 20px;
+    background-color: pink;
+    color: red;
+    border: 3px solid darkgoldenrod;
+}
+
+
+table{
+    background-color: #FEFCCB;
+}
+.hang-6{
+    text-align: center;
+}
+.cot-3{
+    width: 20px;
+}
