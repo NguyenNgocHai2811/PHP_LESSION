@@ -33,7 +33,8 @@ if (isset($_POST['login'])) {
     if (empty($error)) {
         if ($username == $account_user['username'] && $password == $account_user['password']) {
             $redict_to = $_POST['rediect_to'];
-            echo "$redict_to";
+            header("Location:{$redict_to}");
+            
         } else {
             $error['login'] = "tên đăng nhập và mật khẩu không chính xác";
         }
